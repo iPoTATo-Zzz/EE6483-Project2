@@ -1,0 +1,6 @@
+{
+  "predictions_identical": true,
+  "reloaded_loss": 0.03286208545044064,
+  "cached_loss": 0.03286208584904671,
+  "note": "Batch aggregation can cause tiny floating-point loss differences."
+}

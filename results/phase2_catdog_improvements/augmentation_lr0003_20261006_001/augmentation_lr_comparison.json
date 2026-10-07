@@ -1,0 +1,96 @@
+{
+  "reference_run": "augmentation_full_20261006_001",
+  "reference_metrics": {
+    "loss": 0.033950315334298646,
+    "accuracy": 0.9884,
+    "count": 5000,
+    "checkpoint": "D:\\EE6483\\EE6483-Project2\\runs\\phase2_catdog_improvements\\augmentation_full_20261006_001\\best.pth",
+    "epoch": 9,
+    "confusion_matrix": [
+      [
+        2473,
+        27
+      ],
+      [
+        31,
+        2469
+      ]
+    ],
+    "classification_report": {
+      "cat": {
+        "precision": 0.9876198083067093,
+        "recall": 0.9892,
+        "f1-score": 0.9884092725819345,
+        "support": 2500.0
+      },
+      "dog": {
+        "precision": 0.9891826923076923,
+        "recall": 0.9876,
+        "f1-score": 0.9883907125700561,
+        "support": 2500.0
+      },
+      "accuracy": 0.9884,
+      "macro avg": {
+        "precision": 0.9884012503072008,
+        "recall": 0.9884,
+        "f1-score": 0.9883999925759952,
+        "support": 5000.0
+      },
+      "weighted avg": {
+        "precision": 0.9884012503072008,
+        "recall": 0.9884,
+        "f1-score": 0.9883999925759952,
+        "support": 5000.0
+      }
+    }
+  },
+  "candidate_metrics": {
+    "loss": 0.03371422332301736,
+    "accuracy": 0.988,
+    "count": 5000,
+    "checkpoint": "D:\\EE6483\\EE6483-Project2\\runs\\phase2_catdog_improvements\\augmentation_lr0003_20261006_001\\best.pth",
+    "epoch": 8,
+    "confusion_matrix": [
+      [
+        2462,
+        38
+      ],
+      [
+        22,
+        2478
+      ]
+    ],
+    "classification_report": {
+      "cat": {
+        "precision": 0.9911433172302737,
+        "recall": 0.9848,
+        "f1-score": 0.9879614767255217,
+        "support": 2500.0
+      },
+      "dog": {
+        "precision": 0.9848966613672496,
+        "recall": 0.9912,
+        "f1-score": 0.9880382775119617,
+        "support": 2500.0
+      },
+      "accuracy": 0.988,
+      "macro avg": {
+        "precision": 0.9880199892987617,
+        "recall": 0.988,
+        "f1-score": 0.9879998771187417,
+        "support": 5000.0
+      },
+      "weighted avg": {
+        "precision": 0.9880199892987617,
+        "recall": 0.988,
+        "f1-score": 0.9879998771187416,
+        "support": 5000.0
+      }
+    }
+  },
+  "fixed_count": 11,
+  "introduced_count": 13,
+  "persistent_count": 47,
+  "only_config_change": "learning_rate",
+  "limitations": "Single seed 42; best validation checkpoints; no labeled test accuracy."
+}

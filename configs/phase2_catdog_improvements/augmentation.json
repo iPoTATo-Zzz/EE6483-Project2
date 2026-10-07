@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "batch_size": 32,
+  "num_workers": 0,
+  "learning_rate": 0.001,
+  "epochs": 10,
+  "train_per_class": null,
+  "weights": "IMAGENET1K_V1",
+  "augmentation": {
+    "crop_scale": [0.8, 1.0],
+    "crop_ratio": [0.9, 1.1],
+    "horizontal_flip_probability": 0.5
+  }
+}

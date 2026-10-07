@@ -1,0 +1,8 @@
+{
+  "state": "complete",
+  "run_name": "augmentation_lr0003_20261006_001",
+  "only_learning_rate_changed": true,
+  "history_verified": true,
+  "original_image_reload_verified": true,
+  "csv_verified": true
+}

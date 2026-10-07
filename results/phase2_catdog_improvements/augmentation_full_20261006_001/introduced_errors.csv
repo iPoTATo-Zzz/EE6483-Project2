@@ -1,0 +1,15 @@
+path,label,prediction
+val\cat\cat.10570.jpg,0,1
+val\cat\cat.10912.jpg,0,1
+val\cat\cat.11457.jpg,0,1
+val\cat\cat.12238.jpg,0,1
+val\cat\cat.1344.jpg,0,1
+val\cat\cat.4047.jpg,0,1
+val\cat\cat.5445.jpg,0,1
+val\cat\cat.5527.jpg,0,1
+val\dog\dog.11431.jpg,1,0
+val\dog\dog.1256.jpg,1,0
+val\dog\dog.2402.jpg,1,0
+val\dog\dog.2578.jpg,1,0
+val\dog\dog.4872.jpg,1,0
+val\dog\dog.990.jpg,1,0

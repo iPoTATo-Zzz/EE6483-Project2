@@ -1,0 +1,10 @@
+{
+  "architecture": "resnet18",
+  "seed": 42,
+  "learning_rate": 0.0003,
+  "epochs": 10,
+  "batch_size": 32,
+  "augmentation": false,
+  "execution": "cached frozen features",
+  "trainable_parameters": 1026
+}

@@ -1,0 +1,13 @@
+{
+  "state": "verified",
+  "history_10_epochs": true,
+  "best_epoch": 8,
+  "only_lr_changed": true,
+  "manifest_equal": true,
+  "reload_matches": true,
+  "csv500_verified": true,
+  "fixed": 11,
+  "introduced": 13,
+  "persistent": 47,
+  "embedded_images_verified": 17
+}

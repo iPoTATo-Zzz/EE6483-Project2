@@ -1,0 +1,10 @@
+{
+  "architecture": "mobilenet_v3_small",
+  "seed": 42,
+  "learning_rate": 0.001,
+  "epochs": 10,
+  "batch_size": 32,
+  "augmentation": false,
+  "execution": "cached frozen features",
+  "trainable_parameters": 2050
+}

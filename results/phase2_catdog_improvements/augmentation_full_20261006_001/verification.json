@@ -1,0 +1,14 @@
+{
+  "history_10_epochs": true,
+  "best_epoch": 9,
+  "reload_matches": true,
+  "manifests_equal": true,
+  "base_config_equal": true,
+  "csv_verified": true,
+  "fixed": 16,
+  "introduced": 14,
+  "persistent": 44,
+  "report_sha256": "0f3fc7f155075e76374cf45368d3adbc18af765f1ab882d1c5d76887b46c4d59",
+  "embedded_images_verified": 19,
+  "manual_representative_image_review": true
+}

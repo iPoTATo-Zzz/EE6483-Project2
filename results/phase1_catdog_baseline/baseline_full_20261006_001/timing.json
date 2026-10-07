@@ -1,0 +1,5 @@
+{
+  "epochs": 10,
+  "total_epoch_seconds": 3150.1302960999965,
+  "peak_gpu_mib": 287.1435546875
+}

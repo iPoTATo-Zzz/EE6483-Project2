@@ -1,0 +1,28 @@
+# Local datasets and complete experiment outputs
+/datasets/
+/runs/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Local machine settings and temporary files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.tmp
+*.log

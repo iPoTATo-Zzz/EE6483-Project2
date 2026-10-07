@@ -1,0 +1,62 @@
+{
+  "counts": {
+    "train/cat": 10000,
+    "train/dog": 10000,
+    "val/cat": 2500,
+    "val/dog": 2500,
+    "test/unlabelled": 500
+  },
+  "bad_images": [],
+  "duplicate_groups": [
+    [
+      "train/cat/cat.10360.jpg",
+      "train/cat/cat.3345.jpg"
+    ],
+    [
+      "train/cat/cat.2339.jpg",
+      "val/cat/cat.12408.jpg"
+    ],
+    [
+      "train/cat/cat.6143.jpg",
+      "train/cat/cat.6204.jpg"
+    ],
+    [
+      "train/dog/dog.10401.jpg",
+      "train/dog/dog.10797.jpg",
+      "train/dog/dog.2877.jpg"
+    ],
+    [
+      "train/dog/dog.2027.jpg",
+      "train/dog/dog.3082.jpg"
+    ]
+  ],
+  "cross_split_duplicates": [
+    [
+      "train/cat/cat.2339.jpg",
+      "val/cat/cat.12408.jpg"
+    ]
+  ],
+  "test_ids_complete": true,
+  "width_range": [
+    37,
+    1050
+  ],
+  "height_range": [
+    32,
+    768
+  ],
+  "passed": true,
+  "status": "Approved: exclude the overlapping training image only; retain within-training duplicates",
+  "limitations": "Byte-identical SHA-256 checks do not rule out near duplicates.",
+  "training_exclusions": [
+    "train/cat/cat.2339.jpg"
+  ],
+  "unresolved_cross_split_duplicates": [],
+  "effective_counts": {
+    "train/cat": 9999,
+    "train/dog": 10000,
+    "val/cat": 2500,
+    "val/dog": 2500,
+    "test/unlabelled": 500
+  }
+}
