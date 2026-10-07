@@ -1,7 +1,8 @@
 {
   "state": "verified",
-  "pages": 24,
-  "verified_trials": 6,
-  "pdf_sha256": "f13fc05dcfdc6091f057c0d9391639cc4c1836be4d4f0d3f690b16090c0d2348",
-  "all_pages_visually_reviewed": true
+  "pages": 12,
+  "verified_trials": 5,
+  "pdf_sha256": "2248663cb4b0473361091a53f877812a38ce109c33e1c3b20e076bf453e9bd86",
+  "visual_review": "All 12 pages reviewed; updated legend on page 4 rechecked.",
+  "experiment_names": "E1-E5; model, augmentation condition, learning rate"
 }

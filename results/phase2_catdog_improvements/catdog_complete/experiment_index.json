@@ -1,0 +1,27 @@
+[
+  {
+    "experiment": "E1",
+    "name": "ResNet-18, without data augmentation, learning rate = 0.001",
+    "history": "phase1_catdog_baseline/baseline_full_20261006_001/history.csv"
+  },
+  {
+    "experiment": "E2",
+    "name": "ResNet-18, with data augmentation, learning rate = 0.001",
+    "history": "phase2_catdog_improvements/augmentation_full_20261006_001/history.csv"
+  },
+  {
+    "experiment": "E3",
+    "name": "ResNet-18, without data augmentation, learning rate = 0.0003",
+    "history": "phase2_catdog_improvements/resnet18_lr0003/history.csv"
+  },
+  {
+    "experiment": "E4",
+    "name": "MobileNetV3-Small, without data augmentation, learning rate = 0.001",
+    "history": "phase2_catdog_improvements/mobilenetv3small_baseline/history.csv"
+  },
+  {
+    "experiment": "E5",
+    "name": "ResNet-18, with data augmentation, learning rate = 0.0003",
+    "history": "phase2_catdog_improvements/augmentation_lr0003_20261006_001/history.csv"
+  }
+]
